@@ -36,14 +36,14 @@ drawBackground();
 
 drawCloud(100, 100, 0.9);
 drawCloud(650, 160, 1.1);
-// drawCloud(getClLocationX(), getClLocationY(), getClScale());
+drawCloud(getClLocationX(), getClLocationY(), getClScale());
 
 drawBuildingRow(150, 320, "rgb(49, 55, 74)", "rgb(55, 60, 79)", 0.9);
 drawBuildingRow(500, 360, "rgb(49, 51, 74)", "rgb(55, 57, 79)", 1);
-// drawBuildingRow(
-//   getLocationX(),
-//   getLocationY(),
-//   getColourOne(),
-//   getColourTwo(),
-//   getScale()
-// );
+drawBuildingRow(
+  getLocationX(),
+  getLocationY(),
+  getColourOne(),
+  getColourTwo(),
+  getScale()
+);
