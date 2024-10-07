@@ -1,0 +1,11 @@
+html {
+  background-color: rgb(36, 36, 36);
+}
+
+body {
+  text-align: center;
+}
+
+#myCanvas {
+  border: 2px solid rgb(235, 235, 235);
+}
